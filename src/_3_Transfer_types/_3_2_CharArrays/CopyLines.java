@@ -1,4 +1,4 @@
-package CharArrays;
+package _3_Transfer_types._3_2_CharArrays;
 
 import java.io.BufferedWriter;
 import java.io.FileReader;

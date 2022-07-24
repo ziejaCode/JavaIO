@@ -14,12 +14,13 @@ public class ScanSum {
 
         try {
             s = new Scanner(new BufferedReader(new FileReader("usenumbers.txt")));
-            s.useLocale(Locale.UK);
+            //s.useLocale(Locale.UK);
 
             // this loop ensures that all is read but only double is considered
             while (s.hasNext()) {
                 if (s.hasNextDouble()) {
                     sum += s.nextDouble();
+                    System.out.println("s is " + s + " and " + sum);
                 } else {
                     s.next();
                 }   
